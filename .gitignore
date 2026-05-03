@@ -1,0 +1,32 @@
+# Local runtime files
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+desktop.ini
+.streamlit/secrets.toml
+
+# Data collected by the deployed/local app
+users.json
+employee_reviews.csv
+
+# Large training data and experiments
+glassdoor_reviews.csv
+*.ipynb
+glove.6B/
+catboost_info/
+bert_retention_outputs/
+employee_retention_outputs/
+high_accuracy_outputs/
+preprocessed_glassdoor/
+retention_model/
+retention_outputs/
+saved_retention_model/
+
+# Old or duplicate model files
+cnn_model.keras
+cnn_model1.keras
+hybrid_cnn_model.h5
+LSTM_model.keras
+snn_model.keras
+tokenizer1.pkl
+config.json
